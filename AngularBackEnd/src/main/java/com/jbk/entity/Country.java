@@ -13,6 +13,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
+
 @Entity
 @Table(name="country_Details")
 @Getter
@@ -26,6 +27,7 @@ public class Country {
 	@JsonProperty("cid")
 	int cid;
 	String cname;
+	String capitalCity;
 	
 	
 
