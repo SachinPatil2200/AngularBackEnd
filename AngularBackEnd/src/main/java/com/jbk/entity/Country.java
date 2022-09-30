@@ -27,7 +27,7 @@ public class Country {
 	@JsonProperty("cid")
 	int cid;
 	String cname;
-	String capitalCity;
+	
 	
 	
 
